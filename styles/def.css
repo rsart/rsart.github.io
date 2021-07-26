@@ -1,0 +1,98 @@
+/* DEFAULT */
+body {
+    background-color: black;
+    color: wheat;
+    font-family:'Courier New', Courier, monospace;
+    padding: 50px;
+}
+
+footer {
+    color: white;
+    text-align: right;
+    font-size: smaller;
+}
+
+a {
+    color: turquoise;
+}
+
+
+/* LINE */
+div.line {
+    display: block; 
+    block-size: 1%;
+    background-color: aliceblue;
+}
+
+
+/* NAVBAR */
+div.navbar {
+    border: solid 3px white;
+    color: snow;
+}
+
+div.navbar ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+div.navbar li {
+    float: left;
+}
+  
+div.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+div.navbar li a:hover {
+    background-color: #111;
+}
+
+div.navbar .active {
+    background-color: #4bc46f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLOG ENTRIES */
+
+div.diary {
+    color:wheat;
+    text-align: center;
+    padding: 1%;
+
+    background-color: rgb(46, 43, 46);
+    width: 500px;
+    height: auto;
+    border: 3px dashed white;
+    margin: auto;
+}
+
+div.diary h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: double underline white;
+    color: white;
+}
+
+div.diary img {
+    max-width: 450px;
+    border: 5px solid rgb(19, 19, 19);
+}
